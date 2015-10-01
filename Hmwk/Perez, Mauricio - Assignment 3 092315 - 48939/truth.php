@@ -4,9 +4,11 @@
     <meta charset="utf-8">
     <title>Truth Table</title>
 		<?php
-        	//Dr. Mark E. Lehr
-        	//Date:  Sept 21st, 2015
-        	//Purpose:  Logical Operators
+        	/*	Mauricio S. Perez
+				Date:  		Sept 21st, 2015
+				Purpose:	Logical Operators
+							Complete Dr. Lehr's Truth Table.
+			*/
         ?>
     </head>
     
@@ -35,21 +37,21 @@
               <?php
 			    $x=true;
 				$y=true;
-				echo "<td>".($x?"T":"F")."</td>";
-				echo "<td>".($y?"T":"F")."</td>";
-				echo "<td>".(!$x?"T":"F")."</td>";
-				echo "<td>".(!$y?"T":"F")."</td>";
-				echo "<td>".($x&&$y?"T":"F")."</td>";
-				
+				  echo "<td>".($x?"T":"F")."</td>";			//x
+				  echo "<td>".($y?"T":"F")."</td>";			//y
+				  echo "<td>".(!$x?"T":"F")."</td>";		//NOT x
+				  echo "<td>".(!$y?"T":"F")."</td>";		//NOT y
+				  echo "<td>".($x&&$y?"T":"F")."</td>";		//x AND y
+				  
 				//Missing Part of the Table
-  				echo "<td>".($x||$y?"T":"F")."</td>";
-				echo "<td>".($x^$y?"T":"F")."</td>";
-  				echo "<td>".($x^$y^$y?"T":"F")."</td>";
-   				echo "<td>".($x^$y^$x?"T":"F")."</td>";
-				echo "<td>".(!($x&&$y)?"T":"F")."</td>";
-				echo "<td>".((!$x)||(!$y)?"T":"F")."</td>";
-				echo "<td>".(!($x||$y)?"T":"F")."</td>";
-				echo "<td>".((!$x)&&(!$y)?"T":"F")."</td>";
+  				echo "<td>".($x||$y?"T":"F")."</td>";		//x OR Y
+				echo "<td>".($x^$y?"T":"F")."</td>";		//x Exclusive OR y
+  				echo "<td>".($x^$y^$y?"T":"F")."</td>";		//x Exclusive OR y Exclusive OR y
+   				echo "<td>".($x^$y^$x?"T":"F")."</td>";		//x Exclusive OR y Exclusive OR x
+				echo "<td>".(!($x&&$y)?"T":"F")."</td>";	//NOT (x AND y)
+				echo "<td>".((!$x)||(!$y)?"T":"F")."</td>";	//NOT x) OR (NOT y)
+				echo "<td>".(!($x||$y)?"T":"F")."</td>";	//NOT(x OR y)
+				echo "<td>".((!$x)&&(!$y)?"T":"F")."</td>";	//(NOT x) AND (NOT Y)
 			  ?>
             </tr>
 			
