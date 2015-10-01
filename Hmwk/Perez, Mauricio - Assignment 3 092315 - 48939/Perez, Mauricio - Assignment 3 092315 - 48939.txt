@@ -1,2 +1,5 @@
-Complete the truth table in the repository and add 7%,8%,9%,and 10% columns in the Savings table.
+Complete the truth table in the repository. 
+	- Add 7%,8%,9%,and 10% columns in the Savings table.
+	
+	
 Zip folder and submit here as well as sending an email which copies yourself to
