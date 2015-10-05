@@ -1,4 +1,4 @@
 	- Complete the truth table in the repository. 			//Completed
 	- Add 7%,8%,9%,and 10% columns in the Savings table.	//In Progress
 	
-Zip folder and submit here as well as sending an email which copies yourself to
+Zip folder and submit here as well as sending an email which copies yourself to.
