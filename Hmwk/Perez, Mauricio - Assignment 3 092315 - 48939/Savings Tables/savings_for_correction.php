@@ -40,13 +40,13 @@
 				 $prin*=(1+$iRate);
 				 $prin=((int)($prin*100))/100;//Limiting to pennies with truncation
  				 $prin7*=(1+$iRate7);	// For Printing:  7%
-				 $prin7=((int)($prin*100))/100;//Limiting to pennies with truncation
+				 $prin7=((int)($prin7*100))/100;//Limiting to pennies with truncation
 				 $prin8*=(1+$iRate8);	// For Printing:  8%
-				 $prin8=((int)($prin*100))/100;//Limiting to pennies with truncation
+				 $prin8=((int)($prin8*100))/100;//Limiting to pennies with truncation
 				 $prin9*=(1+$iRate9);	// For Printing:  9%
-				 $prin9=((int)($prin*100))/100;//Limiting to pennies with truncation
+				 $prin9=((int)($prin9*100))/100;//Limiting to pennies with truncation
 				 $prin10*=(1+$iRate10);	// For Printing: 10%
-				 $prin10=((int)($prin*100))/100;//Limiting to pennies with truncation
+				 $prin10=((int)($prin10*100))/100;//Limiting to pennies with truncation
 				 
 				 echo '<tr>';
 				 	echo "<td>$year</td>";
