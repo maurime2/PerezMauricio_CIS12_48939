@@ -16,7 +16,6 @@
     <body>
 		<?php
 		     //Declare Variables
-		     //Declare Variables
 			 $initial=100; //Initial Value
 			 $nYears=50;  //Number of years in table
 			 $iRate=0.06; 		//Interest Rate  6%
@@ -40,11 +39,32 @@
 			 for($year=1;$year<=$nYears;$year++){
 				 $prin*=(1+$iRate);
 				 $prin=number_format($prin,2,'.','');//Limiting to pennies with truncation
+				 
+				 //Calculate new column interest rate for 7%,8%,9%,and 10% columns
+				 $prin7*=(1+$iRate7);
+				 $prin7=number_format($prin7,2,'.','');//Limiting to pennies with truncation
+				 $prin8*=(1+$iRate8);
+				 $prin8=number_format($prin8,2,'.','');//Limiting to pennies with truncation
+				 $prin9*=(1+$iRate9);
+				 $prin9=number_format($prin9,2,'.','');//Limiting to pennies with truncation
+				 $prin10*=(1+$iRate10);
+				 $prin10=number_format($prin10,2,'.','');//Limiting to pennies with truncation
+				 
 				 echo '<tr>';
-				 	echo "<td>$year</td>";
-					echo '<td>$'.$prin.'</td>';
+				 	echo "<td>$year</td>";			//Print Year Number
+					echo '<td>$'.$prin.'</td>';		//Print 6% interest rate of year
+					
+					//Echo Print 7%,8%,9%,and 10% columns
+					echo '<td>$'.$prin7.'</td>';	   //Print 7% interest rate of year
+					echo '<td>$'.$prin8.'</td>';	  //Print 8% interest rate of year
+					echo '<td>$'.$prin9.'</td>';	 //Print 9% interest rate of year
+					echo '<td>$'.$prin10.'</td>';	//Print 10% interest rate of year
+				
+				//Close ROW	
 				 echo '</tr>';
-			 }
+			 }//END FOR LOOP
+			 
+			 //CLOSE TABLE
         	 echo '</table>';
         ?>
     </body>
