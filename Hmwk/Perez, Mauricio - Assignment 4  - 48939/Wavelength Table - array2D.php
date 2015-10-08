@@ -31,8 +31,8 @@
 			$total=12;			//Total Rows
 			$rowArr=array();	   // Row Array
 			$xpArr=array();		  // Exponent Array
-			$waveLArr=array();	 // Wavelength Array
-			$typeArr=array();	// Type of Wavelength Array
+			$typeArr=array();	 // Type of Wavelength Array
+			$array2d[$total]=array();//Creates array2d as a 2-Dimensional Array for Exponent and Type
 			
 			//Echo Table 1
 			echo '<tr><th>Table 1: No Array</th> </tr>';
