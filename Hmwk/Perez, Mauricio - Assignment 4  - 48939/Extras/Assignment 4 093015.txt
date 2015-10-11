@@ -14,4 +14,4 @@ Column 3 -> Band from radio to gamma
 
 3) 2 - Dimensional table (logic calculation then display) for those that already know how to program
 
-Post to github, send an email which copies yourself to mark.lehr@rcc.edu with subject:  Lastname, Firstname - Assignment 4  - 48939
+Post to github, send an email which copies yourself to mark.lehr@rcc.edu with subject:  Perez, Mauricio - Assignment 4  - 48939
