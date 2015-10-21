@@ -1,2 +1,0 @@
-Creating a Variable
-Practice makes perfect! Let's get started by creating a variable and giving it a value.
