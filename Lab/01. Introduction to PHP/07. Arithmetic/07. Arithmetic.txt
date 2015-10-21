@@ -1,0 +1,7 @@
+Arithmetic
+In addition to outputting strings, PHP can also do math.
+
+<?php
+  echo 5 * 7;
+?>
+Here we use echo to multiply 5 and 7, and we end our line of code with a semicolon. PHP will output 35.

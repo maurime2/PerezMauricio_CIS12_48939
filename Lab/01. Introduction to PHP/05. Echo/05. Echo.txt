@@ -1,0 +1,10 @@
+Echo
+The echo function outputs strings. If you type
+
+ <?php
+              echo "Hello!";  
+ ?>
+
+PHP will output Hello!.
+
+Make sure to end your line of PHP code with a semicolon.
