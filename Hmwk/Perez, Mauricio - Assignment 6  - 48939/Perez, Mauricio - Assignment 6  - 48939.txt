@@ -1,0 +1,22 @@
+1)  Download mysql workbence, mysql connector j and open-office.
+
+2)  Install connector j in a folder on the root directory.
+
+3)  Open open-office writer and go to tools-options-java-class path and choose connector j jar file.
+
+4)  Start mysql, open workbench and connect to localhost with root and no password.  Select test as the schema.
+
+Class Site
+
+209.129.8.2
+
+Username 48939
+
+Password 48939cis12
+
+On everything from ssh port 10000 to mysql port 3306
+
+
+Using all of the above, Do scripts from Chapters 4,5,6 on your local system and then use at the class site.
+
+Put in your repository, submit here and attach with an email that copies yourself to mark.lehr@rcc.edu with subject:  Lastname, Firstname - Assignment 6 - 48939

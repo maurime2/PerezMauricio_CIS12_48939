@@ -1,0 +1,15 @@
+Create a form, with the following survey questions
+
+1) What is your favorite type of Movie,
+
+   a)  Sci-Fi, b) Drama, c) Romance, etc....
+
+2)  What is your favorite type of color
+
+   a) Red, b) Green, c) Blue, etc....
+
+3)  What make of car is your favorite
+
+   a) Ford, b) GM, c) Chrysler, d) BMW, etc....
+
+Post here, your Git Repository, and zip the folder, attach and send an email which copies yourself to mark.lehr@rcc.edu with subject:  Lastname, Firstname - Survey Form - 48939

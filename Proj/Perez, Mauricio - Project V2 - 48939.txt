@@ -1,0 +1,29 @@
+Now you need to implement your projects.
+
+Create all your tables.  Fill them as we showed you how in class, refer to the repository.  I need a minimum of 5 tables with 100's to 1000's of records to test out your multiple table queries.
+
+Also, create the queries you are going to need, ready for implementation,
+
+As a reminder, here is what you need to create
+
+You have 2 projects to build
+
+1)  A personal project using the concepts in the course, such as a Business project complete with users, catalogs, shopping carts and an administrative side. 
+2)  A survey engine project.
+
+Each project needs a design.
+
+1)  Sitemap which will have 3 sections
+      Public Interface
+      Member Interface -> Login
+      Admin Interface -> Login
+
+Each Section is to have numerous web pages associated with it.  Your job for version 1 is to provide a sitemap and a pages for each section which for now just has the page description.
+
+2)  Each project needs a data base design
+     All tables and all fields in each table.
+
+You are to use Github and a repository that has each version of your project. 
+
+Post your results to the class website, submit your whole folder here and email to mark.lehr@rcc.edu with subject:  Lastname, Firstname - Project V2 - 48939
+
