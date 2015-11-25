@@ -1,0 +1,11 @@
+In Code Academy, sign up,  https://www.codecademy.com/learn
+
+Do the first 2 sections of PHP.  If you haven't done html/css then start the process.
+
+Submit here and send an email to mark.lehr@rcc .edu
+
+which copies yourself and includes the proof of completion with subject:
+
+Also, run phpinfo() at home and in the lab.  Save the .html files, put all in folder, zip and attach as well.
+
+Lastname, Firstname - Lab 1 - 48939
