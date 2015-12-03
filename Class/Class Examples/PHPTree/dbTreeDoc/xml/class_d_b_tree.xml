@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_d_b_tree" kind="class" prot="public">
+    <compoundname>DBTree</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_d_b_tree_1a7f675de4b5983d7e84f6573b7d4d453d" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$properties</definition>
+        <argsstring></argsstring>
+        <name>$properties</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampplite/htdocs/dbtree/DBTree.php" line="10" bodyfile="C:/xampplite/htdocs/dbtree/DBTree.php" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_b_tree_1a4ca8be3ff3cf95aa3af546449c1f1bec" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>$links</definition>
+        <argsstring></argsstring>
+        <name>$links</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampplite/htdocs/dbtree/DBTree.php" line="11" bodyfile="C:/xampplite/htdocs/dbtree/DBTree.php" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_d_b_tree_1a51d1dd5e895a35a8a0b073ce793777e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DBTree</definition>
+        <argsstring>($dbc, $id, $table, $frontPtr, $backPtr)</argsstring>
+        <name>DBTree</name>
+        <param>
+          <type>$</type>
+          <declname>dbc</declname>
+        </param>
+        <param>
+          <type>$</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>$</type>
+          <declname>table</declname>
+        </param>
+        <param>
+          <type>$</type>
+          <declname>frontPtr</declname>
+        </param>
+        <param>
+          <type>$</type>
+          <declname>backPtr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampplite/htdocs/dbtree/DBTree.php" line="20" bodyfile="C:/xampplite/htdocs/dbtree/DBTree.php" bodystart="20" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_b_tree_1a76d25a72b7ae67a7b4633269f0263ed4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>setLinks</definition>
+        <argsstring>($dbc, $id, $table, $frontPtr, $backPtr)</argsstring>
+        <name>setLinks</name>
+        <param>
+          <type>$</type>
+          <declname>dbc</declname>
+        </param>
+        <param>
+          <type>$</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>$</type>
+          <declname>table</declname>
+        </param>
+        <param>
+          <type>$</type>
+          <declname>frontPtr</declname>
+        </param>
+        <param>
+          <type>$</type>
+          <declname>backPtr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampplite/htdocs/dbtree/DBTree.php" line="37" bodyfile="C:/xampplite/htdocs/dbtree/DBTree.php" bodystart="37" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_b_tree_1ab1652be336eddac3696d7c697bd8a7d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getProperty</definition>
+        <argsstring>()</argsstring>
+        <name>getProperty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampplite/htdocs/dbtree/DBTree.php" line="54" bodyfile="C:/xampplite/htdocs/dbtree/DBTree.php" bodystart="54" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_b_tree_1a09967788c0b5ec97029e46a2d1980d08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getLinks</definition>
+        <argsstring>()</argsstring>
+        <name>getLinks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampplite/htdocs/dbtree/DBTree.php" line="58" bodyfile="C:/xampplite/htdocs/dbtree/DBTree.php" bodystart="58" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/xampplite/htdocs/dbtree/DBTree.php" line="9" bodyfile="C:/xampplite/htdocs/dbtree/DBTree.php" bodystart="8" bodyend="62"/>
+    <listofallmembers>
+      <member refid="class_d_b_tree_1a4ca8be3ff3cf95aa3af546449c1f1bec" prot="private" virt="non-virtual"><scope>DBTree</scope><name>$links</name></member>
+      <member refid="class_d_b_tree_1a7f675de4b5983d7e84f6573b7d4d453d" prot="private" virt="non-virtual"><scope>DBTree</scope><name>$properties</name></member>
+      <member refid="class_d_b_tree_1a51d1dd5e895a35a8a0b073ce793777e5" prot="public" virt="non-virtual"><scope>DBTree</scope><name>DBTree</name></member>
+      <member refid="class_d_b_tree_1a09967788c0b5ec97029e46a2d1980d08" prot="public" virt="non-virtual"><scope>DBTree</scope><name>getLinks</name></member>
+      <member refid="class_d_b_tree_1ab1652be336eddac3696d7c697bd8a7d7" prot="public" virt="non-virtual"><scope>DBTree</scope><name>getProperty</name></member>
+      <member refid="class_d_b_tree_1a76d25a72b7ae67a7b4633269f0263ed4" prot="public" virt="non-virtual"><scope>DBTree</scope><name>setLinks</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

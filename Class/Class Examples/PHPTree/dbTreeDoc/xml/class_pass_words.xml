@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_pass_words" kind="class" prot="public">
+    <compoundname>PassWords</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pass_words_1af0547ea02184a3596fb66e667345c006" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static random_password</definition>
+        <argsstring>($length)</argsstring>
+        <name>random_password</name>
+        <param>
+          <type>$</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampplite/htdocs/dbtree/PassWords.php" line="9" bodyfile="C:/xampplite/htdocs/dbtree/PassWords.php" bodystart="9" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pass_words_1a039fae6339ac79150a37ee03a43792a4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static sanitize</definition>
+        <argsstring>($pass)</argsstring>
+        <name>sanitize</name>
+        <param>
+          <type>$</type>
+          <declname>pass</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampplite/htdocs/dbtree/PassWords.php" line="21" bodyfile="C:/xampplite/htdocs/dbtree/PassWords.php" bodystart="21" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pass_words_1ab0646422c5276f28d093983752dd4988" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static encrypt</definition>
+        <argsstring>($pass)</argsstring>
+        <name>encrypt</name>
+        <param>
+          <type>$</type>
+          <declname>pass</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampplite/htdocs/dbtree/PassWords.php" line="25" bodyfile="C:/xampplite/htdocs/dbtree/PassWords.php" bodystart="25" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pass_words_1a430f73ef1c59ad03b3f147146a94df47" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static isSame</definition>
+        <argsstring>($pass, $str)</argsstring>
+        <name>isSame</name>
+        <param>
+          <type>$</type>
+          <declname>pass</declname>
+        </param>
+        <param>
+          <type>$</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampplite/htdocs/dbtree/PassWords.php" line="29" bodyfile="C:/xampplite/htdocs/dbtree/PassWords.php" bodystart="29" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/xampplite/htdocs/dbtree/PassWords.php" line="7" bodyfile="C:/xampplite/htdocs/dbtree/PassWords.php" bodystart="7" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_pass_words_1ab0646422c5276f28d093983752dd4988" prot="public" virt="non-virtual"><scope>PassWords</scope><name>encrypt</name></member>
+      <member refid="class_pass_words_1a430f73ef1c59ad03b3f147146a94df47" prot="public" virt="non-virtual"><scope>PassWords</scope><name>isSame</name></member>
+      <member refid="class_pass_words_1af0547ea02184a3596fb66e667345c006" prot="public" virt="non-virtual"><scope>PassWords</scope><name>random_password</name></member>
+      <member refid="class_pass_words_1a039fae6339ac79150a37ee03a43792a4" prot="public" virt="non-virtual"><scope>PassWords</scope><name>sanitize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

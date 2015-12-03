@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.6.2">
+  <compound refid="class_d_b_tree" kind="class"><name>DBTree</name>
+    <member refid="class_d_b_tree_1a7f675de4b5983d7e84f6573b7d4d453d" kind="variable"><name>$properties</name></member>
+    <member refid="class_d_b_tree_1a4ca8be3ff3cf95aa3af546449c1f1bec" kind="variable"><name>$links</name></member>
+    <member refid="class_d_b_tree_1a51d1dd5e895a35a8a0b073ce793777e5" kind="function"><name>DBTree</name></member>
+    <member refid="class_d_b_tree_1a76d25a72b7ae67a7b4633269f0263ed4" kind="function"><name>setLinks</name></member>
+    <member refid="class_d_b_tree_1ab1652be336eddac3696d7c697bd8a7d7" kind="function"><name>getProperty</name></member>
+    <member refid="class_d_b_tree_1a09967788c0b5ec97029e46a2d1980d08" kind="function"><name>getLinks</name></member>
+  </compound>
+  <compound refid="class_pass_words" kind="class"><name>PassWords</name>
+    <member refid="class_pass_words_1af0547ea02184a3596fb66e667345c006" kind="function"><name>random_password</name></member>
+    <member refid="class_pass_words_1a039fae6339ac79150a37ee03a43792a4" kind="function"><name>sanitize</name></member>
+    <member refid="class_pass_words_1ab0646422c5276f28d093983752dd4988" kind="function"><name>encrypt</name></member>
+    <member refid="class_pass_words_1a430f73ef1c59ad03b3f147146a94df47" kind="function"><name>isSame</name></member>
+  </compound>
+  <compound refid="class_tree_list" kind="class"><name>TreeList</name>
+    <member refid="class_tree_list_1a6779da399c7834de276ea1f9f99f3b3b" kind="function"><name>listAll</name></member>
+    <member refid="class_tree_list_1a9917785457ce49ff20cfc92eb4b1c407" kind="function"><name>listLinks</name></member>
+  </compound>
+  <compound refid="_d_b_tree_8php" kind="file"><name>DBTree.php</name>
+  </compound>
+  <compound refid="mysqli__connect_8php" kind="file"><name>mysqli_connect.php</name>
+    <member refid="mysqli__connect_8php_1a5e2ec5d191cdc6b67e517d9f092a9177" kind="variable"><name>$dbc</name></member>
+  </compound>
+  <compound refid="_pass_words_8php" kind="file"><name>PassWords.php</name>
+  </compound>
+  <compound refid="testdbtree_8php" kind="file"><name>testdbtree.php</name>
+    <member refid="testdbtree_8php_1acebf83966ef6d7e5645a6b62ba368f9f" kind="variable"><name>$a</name></member>
+    <member refid="testdbtree_8php_1af3a16c5f0dd7a74cf9acf6a49fff73a7" kind="variable"><name>$x</name></member>
+    <member refid="testdbtree_8php_1a77b973d137fb33212e018b042df6e3e7" kind="variable"><name>$y</name></member>
+    <member refid="testdbtree_8php_1a7359f3ea32073ea20d3176243cb5f86d" kind="variable"><name>$z</name></member>
+    <member refid="testdbtree_8php_1a2343c53a5a5d6adb508c19a480d76bf1" kind="variable"><name>$query</name></member>
+    <member refid="testdbtree_8php_1a112ef069ddc0454086e3d1e6d8d55d07" kind="variable"><name>$result</name></member>
+    <member refid="testdbtree_8php_1a606c9dff2aade84f01338c3c4cd8016b" kind="variable"><name>$num</name></member>
+  </compound>
+  <compound refid="_tree_list_8php" kind="file"><name>TreeList.php</name>
+  </compound>
+  <compound refid="dir_9fcd4558dbb550d6be36f32a2f5dd05c" kind="dir"><name>C:/xampplite/htdocs/dbtree/</name>
+  </compound>
+  <compound refid="dir_8f5a514288abb79e66266f698e940650" kind="dir"><name>C:/xampplite/htdocs/</name>
+  </compound>
+  <compound refid="dir_a0302ff77c33fe5460d9cf70f985ee2a" kind="dir"><name>C:/xampplite/</name>
+  </compound>
+</doxygenindex>

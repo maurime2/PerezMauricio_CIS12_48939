@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="dir_8f5a514288abb79e66266f698e940650" kind="dir">
+    <compoundname>C:/xampplite/htdocs/</compoundname>
+    <innerdir refid="dir_9fcd4558dbb550d6be36f32a2f5dd05c">C:/xampplite/htdocs/dbtree/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/xampplite/htdocs/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,65 @@
+.TH "C:/xampplite/htdocs/dbtree/testdbtree.php" 3 "4 Jan 2010" "Version Version2" "PHPDatabaseTree" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+C:/xampplite/htdocs/dbtree/testdbtree.php \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "\fB$a\fP = new \fBTreeList\fP()"
+.br
+.ti -1c
+.RI "\fB$x\fP = new \fBDBTree\fP($dbc,1,'volunteer_tree','volunteer_id','family_id')"
+.br
+.ti -1c
+.RI "\fB$y\fP = new \fBDBTree\fP($dbc,0,'volunteer_tree','volunteer_id','family_id')"
+.br
+.ti -1c
+.RI "\fB$z\fP = new \fBDBTree\fP($dbc,0,'event_tree','event_id','parent_event_id')"
+.br
+.ti -1c
+.RI "for($i=0;$i< 10;$i++) \fB$query\fP"
+.br
+.ti -1c
+.RI "\fB$result\fP = mysqli_query($dbc,$query)"
+.br
+.ti -1c
+.RI "\fB$num\fP = mysqli_num_rows($result)"
+.br
+.in -1c
+.SH "Variable Documentation"
+.PP 
+.SS "$a = new \fBTreeList\fP()"
+.PP
+Definition at line 28 of file testdbtree.php.
+.SS "$num = mysqli_num_rows($result)"
+.PP
+Definition at line 48 of file testdbtree.php.
+.SS "for ($i=0;$i< 10;$i++) $query"\fBInitial value:\fP
+.PP
+.nf
+'SELECT a.password as ap,b.password as bp FROM
+            volunteer_tree as a INNER JOIN volunteer_tree_dup as b
+            WHERE a.email=b.email'
+.fi
+.PP
+Definition at line 44 of file testdbtree.php.
+.SS "$result = mysqli_query($dbc,$query)"
+.PP
+Definition at line 47 of file testdbtree.php.
+.SS "$x = new \fBDBTree\fP($dbc,1,'volunteer_tree','volunteer_id','family_id')"
+.PP
+Definition at line 29 of file testdbtree.php.
+.SS "$y = new \fBDBTree\fP($dbc,0,'volunteer_tree','volunteer_id','family_id')"
+.PP
+Definition at line 31 of file testdbtree.php.
+.SS "$z = new \fBDBTree\fP($dbc,0,'event_tree','event_id','parent_event_id')"
+.PP
+Definition at line 33 of file testdbtree.php.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PHPDatabaseTree from the source code.

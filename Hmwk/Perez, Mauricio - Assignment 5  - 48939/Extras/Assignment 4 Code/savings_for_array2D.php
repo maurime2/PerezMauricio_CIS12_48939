@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Savings For-Loop</title>
 		<?php
-            //Mauricio S. Perez
+            //Dr. Mark E. Lehr
             //Date:  Sept 21st, 2015
             //Purpose:  Logical Operators
         ?>

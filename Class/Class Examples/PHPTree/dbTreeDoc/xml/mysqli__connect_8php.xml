@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="mysqli__connect_8php" kind="file">
+    <compoundname>mysqli_connect.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="mysqli__connect_8php_1a5e2ec5d191cdc6b67e517d9f092a9177" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$dbc</definition>
+        <argsstring></argsstring>
+        <name>$dbc</name>
+        <initializer> @mysqli_connect (DB_HOST, DB_USER, DB_PASSWORD, DB_NAME)
+       OR die (&apos;Could not connect to MySQL: &apos; . mysqli_connect_error() )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampplite/htdocs/dbtree/mysqli_connect.php" line="15" bodyfile="C:/xampplite/htdocs/dbtree/mysqli_connect.php" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php<sp/></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>file<sp/>contains<sp/>the<sp/>database<sp/>access<sp/>information.<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>file<sp/>also<sp/>establishes<sp/>a<sp/>connection<sp/>to<sp/>MySQL<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>and<sp/>selects<sp/>the<sp/>database.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Set<sp/>the<sp/>database<sp/>access<sp/>information<sp/>as<sp/>constants:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">DEFINE<sp/>(</highlight><highlight class="stringliteral">&apos;DB_USER&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;root&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">DEFINE<sp/>(</highlight><highlight class="stringliteral">&apos;DB_PASSWORD&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">DEFINE<sp/>(</highlight><highlight class="stringliteral">&apos;DB_HOST&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;localhost&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">DEFINE<sp/>(</highlight><highlight class="stringliteral">&apos;DB_NAME&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;event_tracker&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Make<sp/>the<sp/>connection:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="mysqli__connect_8php_1a5e2ec5d191cdc6b67e517d9f092a9177" refkind="member"><highlight class="normal"><ref refid="mysqli__connect_8php_1a5e2ec5d191cdc6b67e517d9f092a9177" kindref="member">$dbc</ref><sp/>=<sp/>@mysqli_connect<sp/>(DB_HOST,<sp/>DB_USER,<sp/>DB_PASSWORD,<sp/>DB_NAME)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>OR<sp/>die<sp/>(&apos;Could<sp/>not<sp/>connect<sp/>to<sp/>MySQL:<sp/>&apos;<sp/>.<sp/>mysqli_connect_error()<sp/>);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">?&gt;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/xampplite/htdocs/dbtree/mysqli_connect.php"/>
+  </compounddef>
+</doxygen>

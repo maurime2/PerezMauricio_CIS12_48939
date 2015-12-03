@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="dir_9fcd4558dbb550d6be36f32a2f5dd05c" kind="dir">
+    <compoundname>C:/xampplite/htdocs/dbtree/</compoundname>
+    <innerfile refid="_d_b_tree_8php">DBTree.php</innerfile>
+    <innerfile refid="mysqli__connect_8php">mysqli_connect.php</innerfile>
+    <innerfile refid="_pass_words_8php">PassWords.php</innerfile>
+    <innerfile refid="testdbtree_8php">testdbtree.php</innerfile>
+    <innerfile refid="_tree_list_8php">TreeList.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/xampplite/htdocs/dbtree/"/>
+  </compounddef>
+</doxygen>

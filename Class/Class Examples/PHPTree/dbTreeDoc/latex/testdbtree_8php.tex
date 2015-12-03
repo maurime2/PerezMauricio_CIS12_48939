@@ -1,0 +1,64 @@
+\section{C:/xampplite/htdocs/dbtree/testdbtree.php File Reference}
+\label{testdbtree_8php}\index{C:/xampplite/htdocs/dbtree/testdbtree.php@{C:/xampplite/htdocs/dbtree/testdbtree.php}}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+{\bf \$a} = new {\bf TreeList}()
+\item 
+{\bf \$x} = new {\bf DBTree}(\$dbc,1,'volunteer\_\-tree','volunteer\_\-id','family\_\-id')
+\item 
+{\bf \$y} = new {\bf DBTree}(\$dbc,0,'volunteer\_\-tree','volunteer\_\-id','family\_\-id')
+\item 
+{\bf \$z} = new {\bf DBTree}(\$dbc,0,'event\_\-tree','event\_\-id','parent\_\-event\_\-id')
+\item 
+for(\$i=0;\$i$<$ 10;\$i++) {\bf \$query}
+\item 
+{\bf \$result} = mysqli\_\-query(\$dbc,\$query)
+\item 
+{\bf \$num} = mysqli\_\-num\_\-rows(\$result)
+\end{DoxyCompactItemize}
+
+
+\subsection{Variable Documentation}
+\index{testdbtree.php@{testdbtree.php}!\$a@{\$a}}
+\index{\$a@{\$a}!testdbtree.php@{testdbtree.php}}
+\subsubsection[{\$a}]{\setlength{\rightskip}{0pt plus 5cm}\$a = new {\bf TreeList}()}\label{testdbtree_8php_acebf83966ef6d7e5645a6b62ba368f9f}
+
+
+Definition at line 28 of file testdbtree.php.\index{testdbtree.php@{testdbtree.php}!\$num@{\$num}}
+\index{\$num@{\$num}!testdbtree.php@{testdbtree.php}}
+\subsubsection[{\$num}]{\setlength{\rightskip}{0pt plus 5cm}\$num = mysqli\_\-num\_\-rows(\$result)}\label{testdbtree_8php_a606c9dff2aade84f01338c3c4cd8016b}
+
+
+Definition at line 48 of file testdbtree.php.\index{testdbtree.php@{testdbtree.php}!\$query@{\$query}}
+\index{\$query@{\$query}!testdbtree.php@{testdbtree.php}}
+\subsubsection[{\$query}]{\setlength{\rightskip}{0pt plus 5cm}for (\$i=0;\$i$<$ 10;\$i++) \$query}\label{testdbtree_8php_a2343c53a5a5d6adb508c19a480d76bf1}
+{\bfseries Initial value:}
+\begin{DoxyCode}
+"SELECT a.password as ap,b.password as bp FROM
+            volunteer_tree as a INNER JOIN volunteer_tree_dup as b
+            WHERE a.email=b.email"
+\end{DoxyCode}
+
+
+Definition at line 44 of file testdbtree.php.\index{testdbtree.php@{testdbtree.php}!\$result@{\$result}}
+\index{\$result@{\$result}!testdbtree.php@{testdbtree.php}}
+\subsubsection[{\$result}]{\setlength{\rightskip}{0pt plus 5cm}\$result = mysqli\_\-query(\$dbc,\$query)}\label{testdbtree_8php_a112ef069ddc0454086e3d1e6d8d55d07}
+
+
+Definition at line 47 of file testdbtree.php.\index{testdbtree.php@{testdbtree.php}!\$x@{\$x}}
+\index{\$x@{\$x}!testdbtree.php@{testdbtree.php}}
+\subsubsection[{\$x}]{\setlength{\rightskip}{0pt plus 5cm}\$x = new {\bf DBTree}(\$dbc,1,'volunteer\_\-tree','volunteer\_\-id','family\_\-id')}\label{testdbtree_8php_af3a16c5f0dd7a74cf9acf6a49fff73a7}
+
+
+Definition at line 29 of file testdbtree.php.\index{testdbtree.php@{testdbtree.php}!\$y@{\$y}}
+\index{\$y@{\$y}!testdbtree.php@{testdbtree.php}}
+\subsubsection[{\$y}]{\setlength{\rightskip}{0pt plus 5cm}\$y = new {\bf DBTree}(\$dbc,0,'volunteer\_\-tree','volunteer\_\-id','family\_\-id')}\label{testdbtree_8php_a77b973d137fb33212e018b042df6e3e7}
+
+
+Definition at line 31 of file testdbtree.php.\index{testdbtree.php@{testdbtree.php}!\$z@{\$z}}
+\index{\$z@{\$z}!testdbtree.php@{testdbtree.php}}
+\subsubsection[{\$z}]{\setlength{\rightskip}{0pt plus 5cm}\$z = new {\bf DBTree}(\$dbc,0,'event\_\-tree','event\_\-id','parent\_\-event\_\-id')}\label{testdbtree_8php_a7359f3ea32073ea20d3176243cb5f86d}
+
+
+Definition at line 33 of file testdbtree.php.

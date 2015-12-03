@@ -7,6 +7,7 @@
             //Mauricio S. Perez
             //Date:  Sept 21st, 2015
             //Purpose:  Logical Operators
+			//			- Now with Functions
         ?>
     </head>
     

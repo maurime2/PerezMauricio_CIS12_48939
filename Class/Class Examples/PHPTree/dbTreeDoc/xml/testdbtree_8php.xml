@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="testdbtree_8php" kind="file">
+    <compoundname>testdbtree.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="testdbtree_8php_1acebf83966ef6d7e5645a6b62ba368f9f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$a</definition>
+        <argsstring></argsstring>
+        <name>$a</name>
+        <initializer> new <ref refid="class_tree_list" kindref="compound">TreeList</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampplite/htdocs/dbtree/testdbtree.php" line="28" bodyfile="C:/xampplite/htdocs/dbtree/testdbtree.php" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="testdbtree_8php_1af3a16c5f0dd7a74cf9acf6a49fff73a7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$x</definition>
+        <argsstring></argsstring>
+        <name>$x</name>
+        <initializer> new <ref refid="class_d_b_tree" kindref="compound">DBTree</ref>($dbc,1,&apos;volunteer_tree&apos;,&apos;volunteer_id&apos;,&apos;family_id&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampplite/htdocs/dbtree/testdbtree.php" line="29" bodyfile="C:/xampplite/htdocs/dbtree/testdbtree.php" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="testdbtree_8php_1a77b973d137fb33212e018b042df6e3e7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$y</definition>
+        <argsstring></argsstring>
+        <name>$y</name>
+        <initializer> new <ref refid="class_d_b_tree" kindref="compound">DBTree</ref>($dbc,0,&apos;volunteer_tree&apos;,&apos;volunteer_id&apos;,&apos;family_id&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampplite/htdocs/dbtree/testdbtree.php" line="31" bodyfile="C:/xampplite/htdocs/dbtree/testdbtree.php" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="testdbtree_8php_1a7359f3ea32073ea20d3176243cb5f86d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$z</definition>
+        <argsstring></argsstring>
+        <name>$z</name>
+        <initializer> new <ref refid="class_d_b_tree" kindref="compound">DBTree</ref>($dbc,0,&apos;event_tree&apos;,&apos;event_id&apos;,&apos;parent_event_id&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampplite/htdocs/dbtree/testdbtree.php" line="33" bodyfile="C:/xampplite/htdocs/dbtree/testdbtree.php" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="testdbtree_8php_1a2343c53a5a5d6adb508c19a480d76bf1" prot="public" static="no" mutable="no">
+        <type>for($i=0;$i&lt; 10;$i++)</type>
+        <definition>for ($i=0;$i&lt; 10;$i++) $query</definition>
+        <argsstring></argsstring>
+        <name>$query</name>
+        <initializer>&quot;SELECT a.password as ap,b.password as bp FROM
+            volunteer_tree as a INNER JOIN volunteer_tree_dup as b
+            WHERE a.email=b.email&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampplite/htdocs/dbtree/testdbtree.php" line="46" bodyfile="C:/xampplite/htdocs/dbtree/testdbtree.php" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="testdbtree_8php_1a112ef069ddc0454086e3d1e6d8d55d07" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$result</definition>
+        <argsstring></argsstring>
+        <name>$result</name>
+        <initializer>mysqli_query($dbc,$query)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampplite/htdocs/dbtree/testdbtree.php" line="47" bodyfile="C:/xampplite/htdocs/dbtree/testdbtree.php" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="testdbtree_8php_1a606c9dff2aade84f01338c3c4cd8016b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$num</definition>
+        <argsstring></argsstring>
+        <name>$num</name>
+        <initializer>mysqli_num_rows($result)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/xampplite/htdocs/dbtree/testdbtree.php" line="48" bodyfile="C:/xampplite/htdocs/dbtree/testdbtree.php" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//Dr.<sp/>Mark<sp/>E.<sp/>Lehr</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//December<sp/>25th,<sp/>2009</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//Tree<sp/>Validator<sp/>to<sp/>loop<sp/>through<sp/>tree</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//Database<sp/>Schema<sp/>Utilized.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//Note:<sp/><sp/>The<sp/>table,<sp/>primary<sp/>key,<sp/>and<sp/>primary<sp/>key</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/>reference<sp/>are<sp/>required<sp/>to<sp/>be<sp/>identified.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/>All<sp/>data<sp/>is<sp/>then<sp/>loaded<sp/>into<sp/>PHP<sp/>array<sp/>maps.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//DROP<sp/>TABLE<sp/>IF<sp/>EXISTS<sp/>`volunteer_tree`;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//CREATE<sp/>TABLE<sp/>`volunteer_tree`<sp/>(</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>`volunteer_id`<sp/>int(10)<sp/>NOT<sp/>NULL<sp/>AUTO_INCREMENT,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>`first_name`<sp/>varchar(20)<sp/>DEFAULT<sp/>NULL,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>`last_name`<sp/>varchar(20)<sp/>DEFAULT<sp/>NULL,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>`email`<sp/>varchar(30)<sp/>DEFAULT<sp/>NULL,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>`password`<sp/>varchar(20)<sp/>DEFAULT<sp/>NULL,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>`family_id`<sp/>int(10)<sp/>DEFAULT<sp/>NULL,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>PRIMARY<sp/>KEY<sp/>(`volunteer_id`)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//)<sp/>ENGINE=MyISAM<sp/>AUTO_INCREMENT=9<sp/>DEFAULT<sp/>CHARSET=latin1;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//Include<sp/>File</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>require_once<sp/>(</highlight><highlight class="stringliteral">&apos;mysqli_connect.php&apos;</highlight><highlight class="normal">);<sp/></highlight><highlight class="comment">//<sp/>Connect<sp/>to<sp/>the<sp/>db.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>require_once<sp/>(</highlight><highlight class="stringliteral">&apos;DBTree.php&apos;</highlight><highlight class="normal">);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Create<sp/>a<sp/>tree<sp/>from<sp/>a<sp/>db<sp/>table</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>require_once<sp/>(</highlight><highlight class="stringliteral">&apos;TreeList.php&apos;</highlight><highlight class="normal">);<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Display<sp/>the<sp/>tree</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>require_once<sp/>(</highlight><highlight class="stringliteral">&apos;PassWords.php&apos;</highlight><highlight class="normal">);<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Everything<sp/>passwords</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//Test<sp/>the<sp/>database<sp/>Tree<sp/>object<sp/>and<sp/>the<sp/>display</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="testdbtree_8php_1acebf83966ef6d7e5645a6b62ba368f9f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testdbtree_8php_1acebf83966ef6d7e5645a6b62ba368f9f" kindref="member">$a</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_tree_list" kindref="compound">TreeList</ref>();</highlight></codeline>
+<codeline lineno="29" refid="testdbtree_8php_1af3a16c5f0dd7a74cf9acf6a49fff73a7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testdbtree_8php_1af3a16c5f0dd7a74cf9acf6a49fff73a7" kindref="member">$x</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_d_b_tree" kindref="compound">DBTree</ref>(<ref refid="mysqli__connect_8php_1a5e2ec5d191cdc6b67e517d9f092a9177" kindref="member">$dbc</ref>,1,</highlight><highlight class="stringliteral">&apos;volunteer_tree&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;volunteer_id&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;family_id&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testdbtree_8php_1acebf83966ef6d7e5645a6b62ba368f9f" kindref="member">$a</ref>-&gt;listAll(<ref refid="testdbtree_8php_1af3a16c5f0dd7a74cf9acf6a49fff73a7" kindref="member">$x</ref>);</highlight></codeline>
+<codeline lineno="31" refid="testdbtree_8php_1a77b973d137fb33212e018b042df6e3e7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testdbtree_8php_1a77b973d137fb33212e018b042df6e3e7" kindref="member">$y</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_d_b_tree" kindref="compound">DBTree</ref>(<ref refid="mysqli__connect_8php_1a5e2ec5d191cdc6b67e517d9f092a9177" kindref="member">$dbc</ref>,0,</highlight><highlight class="stringliteral">&apos;volunteer_tree&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;volunteer_id&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;family_id&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testdbtree_8php_1acebf83966ef6d7e5645a6b62ba368f9f" kindref="member">$a</ref>-&gt;listAll(<ref refid="testdbtree_8php_1a77b973d137fb33212e018b042df6e3e7" kindref="member">$y</ref>);</highlight></codeline>
+<codeline lineno="33" refid="testdbtree_8php_1a7359f3ea32073ea20d3176243cb5f86d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testdbtree_8php_1a7359f3ea32073ea20d3176243cb5f86d" kindref="member">$z</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_d_b_tree" kindref="compound">DBTree</ref>(<ref refid="mysqli__connect_8php_1a5e2ec5d191cdc6b67e517d9f092a9177" kindref="member">$dbc</ref>,0,</highlight><highlight class="stringliteral">&apos;event_tree&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;event_id&apos;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&apos;parent_event_id&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testdbtree_8php_1acebf83966ef6d7e5645a6b62ba368f9f" kindref="member">$a</ref>-&gt;listAll(<ref refid="testdbtree_8php_1a7359f3ea32073ea20d3176243cb5f86d" kindref="member">$z</ref>);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testdbtree_8php_1acebf83966ef6d7e5645a6b62ba368f9f" kindref="member">$a</ref>-&gt;listLinks(<ref refid="testdbtree_8php_1a7359f3ea32073ea20d3176243cb5f86d" kindref="member">$z</ref>-&gt;getLinks());</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="comment">//Test<sp/>the<sp/>password<sp/>class</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">($i=0;$i&lt;10;$i++){</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$pass=<ref refid="class_pass_words_1af0547ea02184a3596fb66e667345c006" kindref="member">PassWords::random_password</ref>(8);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$pass1=<ref refid="class_pass_words_1ab0646422c5276f28d093983752dd4988" kindref="member">PassWords::encrypt</ref>($pass);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo<sp/>$pass.</highlight><highlight class="stringliteral">&quot;<sp/>==&gt;<sp/>&quot;</highlight><highlight class="normal">.<ref refid="class_pass_words_1ab0646422c5276f28d093983752dd4988" kindref="member">PassWords::encrypt</ref>($pass).</highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal">.</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<ref refid="class_pass_words_1a430f73ef1c59ad03b3f147146a94df47" kindref="member">PassWords::isSame</ref>($pass,$pass1)?</highlight><highlight class="stringliteral">&quot;TRUE&quot;</highlight><highlight class="normal">:</highlight><highlight class="stringliteral">&quot;FALSE&quot;</highlight><highlight class="normal">).</highlight><highlight class="stringliteral">&quot;&lt;br/&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="comment">//Compare<sp/>tree<sp/>with<sp/>tree<sp/>dup<sp/>table<sp/>passwords</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="testdbtree_8php_1a2343c53a5a5d6adb508c19a480d76bf1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testdbtree_8php_1a2343c53a5a5d6adb508c19a480d76bf1" kindref="member">$query</ref>=</highlight><highlight class="stringliteral">&quot;SELECT<sp/>a.password<sp/>as<sp/>ap,b.password<sp/>as<sp/>bp<sp/>FROM</highlight></codeline>
+<codeline lineno="45"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>volunteer_tree<sp/>as<sp/>a<sp/>INNER<sp/>JOIN<sp/>volunteer_tree_dup<sp/>as<sp/>b</highlight></codeline>
+<codeline lineno="46"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WHERE<sp/>a.email=b.email&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="47" refid="testdbtree_8php_1a112ef069ddc0454086e3d1e6d8d55d07" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="testdbtree_8php_1a112ef069ddc0454086e3d1e6d8d55d07" kindref="member">$result</ref>=mysqli_query(<ref refid="mysqli__connect_8php_1a5e2ec5d191cdc6b67e517d9f092a9177" kindref="member">$dbc</ref>,<ref refid="testdbtree_8php_1a2343c53a5a5d6adb508c19a480d76bf1" kindref="member">$query</ref>);</highlight></codeline>
+<codeline lineno="48" refid="testdbtree_8php_1a606c9dff2aade84f01338c3c4cd8016b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="testdbtree_8php_1a606c9dff2aade84f01338c3c4cd8016b" kindref="member">$num</ref>=mysqli_num_rows(<ref refid="testdbtree_8php_1a112ef069ddc0454086e3d1e6d8d55d07" kindref="member">$result</ref>);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="testdbtree_8php_1a606c9dff2aade84f01338c3c4cd8016b" kindref="member">$num</ref><sp/>&gt;<sp/>0){</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>($row<sp/>=<sp/>mysqli_fetch_array(<ref refid="testdbtree_8php_1a112ef069ddc0454086e3d1e6d8d55d07" kindref="member">$result</ref>,<sp/>MYSQLI_ASSOC)){</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>echo<sp/>(<ref refid="class_pass_words_1a430f73ef1c59ad03b3f147146a94df47" kindref="member">PassWords::isSame</ref>($row[</highlight><highlight class="stringliteral">&apos;ap&apos;</highlight><highlight class="normal">],$row[</highlight><highlight class="stringliteral">&apos;bp&apos;</highlight><highlight class="normal">])?</highlight><highlight class="stringliteral">&quot;TRUE&quot;</highlight><highlight class="normal">:</highlight><highlight class="stringliteral">&quot;FALSE&quot;</highlight><highlight class="normal">).</highlight><highlight class="stringliteral">&quot;&lt;br/&gt;&quot;</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mysqli_free_result<sp/>(<ref refid="testdbtree_8php_1a112ef069ddc0454086e3d1e6d8d55d07" kindref="member">$result</ref>);<sp/></highlight><highlight class="comment">//<sp/>Free<sp/>up<sp/>the<sp/>resources.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="C:/xampplite/htdocs/dbtree/testdbtree.php"/>
+  </compounddef>
+</doxygen>

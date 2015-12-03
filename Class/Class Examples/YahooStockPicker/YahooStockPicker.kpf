@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Komodo Project File - DO NOT EDIT -->
+<project id="ffa1dda6-9581-4d80-9ea2-17e26dcbc40f" kpf_version="4" name="YahooStockPicker.kpf">
+<preference-set idref="ffa1dda6-9581-4d80-9ea2-17e26dcbc40f">
+  <boolean id="import_live">1</boolean>
+</preference-set>
+</project>

@@ -1,0 +1,9 @@
+https://code.google.com/p/yahoo-finance-managed/wiki/YahooFinanceAPIs
+g	Day's Low
+h	Day's High
+j	52-Week Low
+k	52-Week High
+l1	Last Trade (Price Only)
+m3	50-Day MA
+m4	200-D MA
+n	Name
