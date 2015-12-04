@@ -1,7 +1,5 @@
 Modify assignment 4 by creating a function which outputs an array to be used for the table.
-
 Then create a function which displays the table.
 
 Post in your repository, post your folder to the class server.
-
 zip your folder and post here, as well as sending this zip folder in an email the usual way.

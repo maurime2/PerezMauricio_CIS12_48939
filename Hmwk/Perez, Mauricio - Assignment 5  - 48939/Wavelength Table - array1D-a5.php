@@ -1,8 +1,8 @@
 <!doctype html>
-<html>
+
     <head>
     <meta charset="utf-8">
-    <title>Electromagnetic Spectrum Band: 1D Arrays</title>
+    <title>Electromagnetic Spectrum Band: 1D Arrays</title
 		<?php
 		/*	Mauricio S. Perez
 			Date:  		October 4th, 2015
@@ -20,6 +20,7 @@
 							- 3) 2 - Dimensional table (logic calculation then display) 
 									 for those that already know how to program
 		*/
+				include 'functions.php';		//Includes Functions File
         ?>
     </head>
     
