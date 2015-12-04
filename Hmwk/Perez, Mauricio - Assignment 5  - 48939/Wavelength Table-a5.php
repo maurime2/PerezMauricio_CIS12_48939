@@ -31,41 +31,9 @@
 			$xp=3;				  //Exponential Value
 			$waveL=1*(10^($xp)); //Wavelength Start
 			$total=12;			//Total Rows
-
-			//Create headings in the table
-			echo '<table width="200" border="1">';
-			 
-			//CREATE TOP ROW: "ROW"	"WAVELENGTH"	"BAND"
-			echo '<tr><th>Row</th> <th>Wavelength</th> <th>Band</th> </tr>';
-
-			//Print Rows
-			do{
-				echo '<tr>';						  //START OF ROW
-					echo "<td>$row</td>";			 //Prints ROW Column Value
-						echo "<td>10^$xp</td>";		//Prints WAVELENGTH Column Value
-							
-							//Last Column
-							echo '<td>';
-								//Use Dummy Variable to Print Column
-								$type=(($xp>=1)?"Radio":
-										(($xp==0)?"Radio/Microwave":
-										((($xp<=-1)&&($xp>=-3))?"Microwave":
-										(($xp==-4)?"Microwave/InfraRed":
-										(($xp==-5)?"InfraRed":
-										(($xp==-6)?"Visiable":
-										(($xp==-7)?"Visiable/Ultraviolet":
-										(($xp==-8)?"Ultraviolet":
-										(($xp==-9)?"Ultraviolet/X-Ray":
-										(($xp==-10)?"X-Ray":
-										(($xp==-11)?"X-Ray/GamaRay":
-										(($xp<=-12)?"GamaRay":
-										"Unknown."))))))))))));
-								echo $type;	
-							echo '</td>';	//END OF LAST COLUMN
-				echo '</tr>';			   //END OF ROW
-				$xp--;					  //Decrement Wavelength
-			}while(++$row<=$total);      //Points to next row until total reached
-			echo '</table>';			//END OF TABLE
+			
+			//Call Display Table Function
+			dispTable($row,$xp,$waveL,$total);
         ?>
     </body>
 </html>
