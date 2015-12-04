@@ -7,7 +7,7 @@ function operand($strt,$endit,$contain){
 	//Strip from contain the strt and end points for the
 	//operand array
 		$beg=$contain[$strt];
-		$stp=$contain[$endit;
+		$stp=$contain[$endit];
 	//Fill the operand array with values
 	//Range function performs the same task
 	$op=array();
@@ -21,7 +21,7 @@ function savings($prin,$interest,$years){
 	$tab=array();
 	for($i=$interest[0];$i<sizeof($interest);$i++){
 		$tab[$i]=array();
-		for($j=0;$j as $key2 => $value2){
+		for($j=0; $j as $key2 => $value2){
 			$tab[$key1][$key2]=$prin*pow((1+$value1/100),$value2);
 		}
 	}
