@@ -37,16 +37,16 @@
 			$typeArr=array();	// Type of Wavelength Array
 			
 			//Echo Table 1: No Array
-			echo '<tr><th>Table 1: No Array</th> </tr>';
 			dispTable($row,$xp,$waveL,$total);
 			
-			//call fill array - $rowArr
-			$rowArr=fillrowArr($rowArr,1,3,$xpArr,$typeArr,12);
-			$xpArr = fillrowArr($rowArr,1,3,$xpArr,$typeArr,12);
-			$typeArr = filltypeArr($rowArr,1,3,$xpArr,$typeArr,12);
+			//call fill arrays - $rowArr
+			$rowArr=fillrowArr($rowArr,$row,3,$xpArr,$typeArr,12);
+			$xpArr = fillxpArr($rowArr,$row,3,$xpArr,$typeArr,12);
+			$typeArr = filltypeArr($rowArr,$row,3,$xpArr,$typeArr,12);
 			
-			//Echo Table 2: i-Dim Arrays
+			//Echo Table 2: 1-Dim Arrays
 			printTable2($rowArr,$xpArr,$typeArr,$total);
+			
         ?>
     </body>
 </html>

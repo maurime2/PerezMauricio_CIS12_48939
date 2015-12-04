@@ -44,7 +44,7 @@
 			return $savings;
 		}
 		
-		//Display Table
+		//Display Savings Table
 		function printTable($iRate,$nYears,$years,$savings){
 					 echo '<table width="300" border="1">';
 					 echo '<tr><th>Years</th>';
@@ -69,7 +69,8 @@
 		//Wavelength Function: Display - Wavelength Table-a5.php
 		function dispTable($row,$xp,$waveL,$total){
 				
-				//Create headings in the table
+			//Create headings in the table
+			echo '<tr><th>Table 1: No Array</th> </tr>';
 			echo '<table width="200" border="1">';
 			 
 			//CREATE TOP ROW: "ROW"	"WAVELENGTH"	"BAND"
@@ -103,6 +104,7 @@
 				$xp--;					  //Decrement Wavelength
 			}while(++$row<=$total);      //Points to next row until total reached
 			echo '</table>';			//END OF TABLE
+			echo "\r\r\n\n";
 			}
 	
 		//Wavelength Function: Fill $rowArr- Wavelength Table-array1D-a5.php
@@ -159,7 +161,7 @@
 			return $xpArr;	
 		}
 
-			//Wavelength Function: Fill - Wavelength Table-array1D-a5.php
+		//Wavelength Function: Fill - Wavelength Table-array1D-a5.php
 		function filltypeArr($rowArr,$row,$xp,$xpArr,$typeArr,$total){
 			//Fill Arrays - Print Rows on Table 1
 			do{
@@ -186,7 +188,7 @@
 			return $typeArr;	
 		}
 		
-	//Print Table
+		//Print Table
 		function printTable2($rowArr,$xpArr,$typeArr,$total){
 			
 			//PRINT Arrays Into Table 2
@@ -204,8 +206,38 @@
 				echo '</tr>';
 			}while(++$row<=$total);
 			echo '</table>';						//END OF TABLE 2
-			
+			echo "\r\r\n\n";
 			
 		}
 		
+		//2D Array Fill Function
+		function fillarray2d($xpArr,$typeArr,$array2d,$row,$total){
+			//Fill Array exponent and Array type into 2d Array
+			for($i=1;$i<=$total;$i++){
+				$array2d[$i][0]=$xpArr[$i];
+				$array2d[$i][1]=$typeArr[$i];
+			}
+			//Return 2D array
+			return $array2d;
+		}
+
+		//Display 2d Array Table
+		function dispTable3($array2d,$total,$xp){
+			//PRINT Arrays Into Table 3
+			//Echo Table 3
+			echo '<tr><th>Table 3: 2D Array Table</th> </tr>';
+			echo '<table width="200" border="1">';
+			//CREATE TOP ROW: 	"ROW"		"WAVELENGTH"		"BAND"
+			echo '<tr><th>Row</th> <th>Wavelength</th> <th>Band</th> </tr>';
+			$row=1;
+			do{
+				$xp = 0;
+				echo '<tr>';
+				echo '<td>'.$row.'</td>';		  				  // Prints Row
+				echo '<td>10^'.$array2d[$row][$xp].'</td>';		 // Prints Exponent Array
+				echo '<td>'.$array2d[$row][$xp+1].'</td>';		// Prints Type of Wavelength
+				echo '</tr>';
+			}while(++$row<=$total);
+			echo '</table>';
+		}//END OF TABLE 3	
 ?>
